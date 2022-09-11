@@ -32,5 +32,10 @@ public class PlayerMove : MonoBehaviour
         {
             rb.AddForce(-5, 0, 0);
         }
+
+        if (transform.position.y > -10)
+        {
+            transform.position = new Vector3(0, 7.94, 0);
+        }
     }
 }
