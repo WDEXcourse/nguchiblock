@@ -35,7 +35,7 @@ public class PlayerMove : MonoBehaviour
 
         if (transform.position.y > -10)
         {
-            transform.position = new Vector3(0, 7.94, 0);
+            transform.position = new Vector3(0, 8, 0);
         }
     }
 }
