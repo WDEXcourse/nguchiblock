@@ -60,7 +60,6 @@ public class PlayerMove : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Ground"))
         {
-            print("着地");
             isJumping = false;
         }
     }
